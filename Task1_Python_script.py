@@ -52,8 +52,7 @@ def save_file(text):
     fname = f'scraped_articles/{name}.txt'
     
     # Code here - write a file using with (2 lines)
-    with open(fname, 'w', encoding='utf-8') as f:
-        f.write(text)   # FIX: corrected indentation
+
     # Code ends here
 
     print(f'File saved in directory {fname}')
